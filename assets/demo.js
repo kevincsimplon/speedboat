@@ -375,6 +375,7 @@ var DEMO = {
 				 text: "Vous êtes un vrai pilote! une autre partie ?",
 					type: "success"
 				},
+
 				function(){
 					window.location.href = 'index.html';
 				});
