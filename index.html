@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<title>SPEEDBOAT</title>
+		<link rel="stylesheet" type="text/css" href="css/sweetalert.css">
+		<link href="css/style.css" rel="stylesheet">
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="mobile-web-app-capable" content="yes" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	</head>
+
+	<body>
+<embed style="position: absolute"src="sond2.mp3" autostart="true" loop="true" hidden="true"></embed> 
+		<div class="menu">
+			<img id="logo" src="img/logo-sb.png" alt="" />
+			<button id="start">Start !</button>
+<!--			<div id="credit">
+				<ul>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</div>-->
+		</div>
+		<div id="timer"></div>
+		<div id="score">SCORE:<span id="sval"></span></div>
+		<div id="canvas-3d" class="viewer"></div>
+
+		<!-- External libraries -->
+		<script src="scripts/three.min.js"></script>
+		<script src="scripts/THREEx.KeyboardState.js"></script>
+		<script src="scripts/RequestAnimationFrame.js"></script>
+		<script src="css/font/helvetiker_bold.typeface.js"></script>
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!--		<script src="../demo/assets/libs/three/OrbitControls.js"></script>-->
+
+		<!-- Water shader -->
+		<script src="assets/water-material.js"></script>
+		<!-- Demo files -->
+		<script src="assets/window.js"></script>
+		<script src="assets/demo.js"></script>
+		<script src="assets/main.js"></script>
+		<script src="assets/chrono.js"> </script>
+		<script src="assets/sweetalert.min.js"></script>
+	</body>
+</html>

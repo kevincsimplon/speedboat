@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'bubble';
+    src: url('../font/gfscus1d-webfont.eot');
+    src: url('../font/gfscus1d-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/gfscus1d-webfont.woff2') format('woff2'),
+         url('../font/gfscus1d-webfont.woff') format('woff'),
+         url('../font/gfscus1d-webfont.ttf') format('truetype'),
+         url('../font/gfscus1d-webfont.svg#bubble_1om_bubble_1') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body {
+	background-color : #000;
+	margin : 0px;
+	padding : 0px;
+	color : #fff;
+	overflow: hidden;
+}
+.menu{
+	z-index: 100000;
+	width: 100%;
+	height: 100vh;
+	background-color: #80DEEA;
+	position: absolute;
+	transition: top 1s ease;
+	top:0;
+}
+.hide{
+	top: -100vh;
+	transition: top 1s ease;
+}
+#logo{
+	display: inline-block;
+	margin-left: 23%;
+	margin-top: 5%;
+	width: 50%;
+	clear: both;
+}
+#start{
+	width: 200px;
+	height: 200px;
+	margin: auto;
+  margin-top:20%;
+	font-family: 'bubble',sans-serif;
+	font-size: 3em;
+	color: #AAAAAA;
+	background-color: white;
+	border-radius: 100%;
+	border: 0px;
+	box-shadow: 1px 3px 5px 1px;
+	clear: both;
+
+}
+#start:hover{
+  cursor: pointer;
+border: 5px #E0E0E0  solid;
+  border-radius: 100%;
+}
+#start:active{
+  border: 6px;
+ box-shadow: 2px 5px 7px 2px;
+}
+#credit{
+	display: inline;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+#credit ul {
+	display: inline;
+	list-style: none;
+}
+/*@import url(http://fonts.googleapis.com/css?family=Covered+By+Your+Grace);
+​
+#seconds {
+  font-size: 80px;
+  color: #600000 ;
+	text-shadow: 3px 2px 8px black;
+	margin-left: 25px;
+}
+​
+div {
+  display: inline-block;
+  line-height: 1;
+	position: absolute;
+  font-size: 40px;
+	float: right;
+}
+​
+span {
+  display: block;
+  font-size: 30px;
+  color: white;
+}*/
